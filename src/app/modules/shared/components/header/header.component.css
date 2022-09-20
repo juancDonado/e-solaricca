@@ -1,0 +1,44 @@
+.container{
+  display: grid;
+  grid-template-columns: 10% 90%;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 128px;
+  width: 100%;
+  position: fixed;
+  background: white;
+  top: 0;
+  z-index: 10;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.content-options ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.content-options ul li{
+  padding: 3px 25px;
+}
+.content-button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0px;
+}
+.button{
+  background-color: #FCBC0C;
+  border: none;
+  color: black !important;
+}
+.button:hover{
+  background-color: #C08B02;
+  border: none;
+}
+:host ::ng-deep .p-megamenu{
+  background-color: white !important;
+  border: none;
+}
+.content-img{
+  width: 100%;
+  height: auto;
+}

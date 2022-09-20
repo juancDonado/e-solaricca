@@ -1,0 +1,36 @@
+.container{
+ margin-top: 200px;
+}
+.card-img{
+  border-radius: 5px 5px 0px 0px;
+}
+:host ::ng-deep .p-card .p-card-title{
+  text-align: center;
+}
+.content{
+  text-align: center;
+}
+.button{
+  background-color: #FCBC0C;
+  border: none;
+  color: black !important;
+}
+.button:hover{
+  background-color: #C08B02;
+  border: none;
+}
+:host ::ng-deep .p-card .p-card-footer{
+  display: flex;
+  justify-content: center;
+}
+.principal{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.secundario{
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+p-card {
+  padding: 30px;
+}
