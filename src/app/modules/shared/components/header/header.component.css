@@ -3,7 +3,7 @@
   grid-template-columns: 10% 90%;
   align-items: center;
   justify-content: center;
-  padding: 0px 128px;
+  padding: 20px 128px;
   width: 100%;
   position: fixed;
   background: white;
@@ -29,6 +29,9 @@
   background-color: #FCBC0C;
   border: none;
   color: black !important;
+}
+:host ::ng-deep .p-button-label {
+  font-weight: 400;
 }
 .button:hover{
   background-color: #C08B02;
